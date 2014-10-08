@@ -1,11 +1,18 @@
 <html>
 <head>
 	<title>DOMfun</title>
+	<style>
+		.stripe {
+			background: #888;
+		}
+	</style>
 </head>
 <body>
 	<header id="header">
 		<h1>F<em class="em">under</em>DOM</h1>
 		<hr></hr>
+		<div class="messages">
+		</div>
 	</header><!-- /header -->
 	<h2>Welcome to the DOM fun house :)</h2>
 	<p>wat one</p>
@@ -30,12 +37,17 @@
 
 	<div id='nameTarget'>
   </div> <!-- and is getting inserted in this element -->
+  <button id="reset">Reset</button>
 
   <div id='myTarget'>
   </div>
 
-
+<!-- libraries -->
+<script src="jquery/dist/jquery.js"></script>
 <script src="underscore/underscore.js"></script>
+
+<!-- my scripts -->
 <script src="scripts/main.js"></script>
+<script src="scripts/funQuery.js"></script>
 </body>
 </html>

@@ -39,8 +39,7 @@ var names = [
   'bill',
   'jane',
   'sally',
-  'mary',
-  '<hr>'
+  'mary'
 ];
 
 // Getting a list of compiled templates by mapping over my list of names.
