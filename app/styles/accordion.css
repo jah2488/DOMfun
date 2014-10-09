@@ -1,0 +1,8 @@
+.accordion,.accordion div,.accordion h1,
+.accordion p,.accordion a,.accordion img,
+.accordion span,.accordion em,.accordion ul,
+.accordion li {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
